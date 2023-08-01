@@ -10,7 +10,7 @@
 .header-content {
     border-bottom: 3px solid #FFF;
     background: rgba(43, 74, 97, 0.87);
-    width: 1440px;
+    /* width: 1440px; */
     height: 150px;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
 .content {
     background-image: url(/Ukrainian/img/Rectangle104.jpg);
     background-size: cover;
-    width: 1440px;
+    /* width: 1440px; */
     height: 150px;
 
 }
@@ -90,7 +90,7 @@
 .content2 {
     background-image: url(/Ukrainian/img/avatar-bg.jpg);
     background-size: cover;
-    width: 1440px;
+    /* width: 1440px; */
     height: 740px;
 }
 .for-margin-top {
@@ -160,7 +160,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    /* width: 1440px; */
     height: 350px;
     background-color: #fff;
 }
