@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.avatar-logo {
+    width: 186px;
+    height: 72px;
+}
+.header-content {
+    border-bottom: 3px solid #FFF;
+    background: rgba(43, 74, 97, 0.87);
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.content {
+    background-image: url(/Ukrainian/img/Rectangle104.jpg);
+    background-size: cover;
+    width: 1440px;
+    height: 150px;
+
+}
+#Main {
+    color: #94CFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header-links > a:nth-of-type(n+2) {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header-links > a {
+    margin-left: 38px;
+}
+.header-content > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    padding: 20px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 141px;
+    height: 42px;
+    border: 2px solid #26C7EA;
+    background-color: #0B0E66;
+    border-radius: 35px 0;
+    color: #26C6EA;
+    font-family: HeadlandOne;
+    font-size: 20px;
+}
+.switcher-container {
+    display: flex;
+}
+.switcher-container > a {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    text-decoration: none;
+}
+.switcher {
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    width: 36px;
+    height: 20px;
+    margin: 0 10px;
+    position: relative;
+}
+.slider::after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #fff;
+    right: 1px;
+}
+.content2 {
+    background-image: url(/Ukrainian/img/avatar-bg.jpg);
+    background-size: cover;
+    width: 1440px;
+    height: 740px;
+}
+.for-margin-top {
+    height: 40px;
+    width: 100%;
+}
+.header-text {
+    margin-left: 78px;
+    margin-top: 100px;
+    /* position: relative; */
+}
+.header-text > p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.header-text > p:nth-of-type(1) {
+    width: 298px;
+    height: 96px;
+}
+.header-text > p:nth-of-type(2) {
+    width: 376px;
+    height: 123px;
+}
+.header-text > div:nth-of-type(1) {
+    background-image: url(/Ukrainian/img/white-arrow-left.png);
+    width: 152px;
+    height: 40px;
+    margin-left: 60px;
+}
+.join-clan {
+    margin-top: 42px;
+    border: 3px solid #26C7EA;
+    width: 260px;
+    height: 80px;
+    border-radius: 45px 0px;
+    background: #0B0E66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-clan > p {
+    width: 199px;
+    color: #26C7EA;
+    font-family: HeadlandOne;
+    font-size: 24px;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.icons > div:nth-of-type(1) {
+    width: 30px;
+    height: 30px;
+}
+.icons > div:nth-of-type(2) {
+    width: 34px;
+    height: 30px;
+}
+.icons > div:nth-of-type(3) {
+    width: 50px;
+    height: 30px;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 350px;
+    background-color: #fff;
+}
+.card1 > h1, h2 {
+    color: #0A3853;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+}
+
+
