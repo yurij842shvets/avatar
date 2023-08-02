@@ -10,7 +10,6 @@
 .header-content {
     border-bottom: 3px solid #FFF;
     background: rgba(43, 74, 97, 0.87);
-    /* width: 1440px; */
     height: 150px;
     display: flex;
     justify-content: center;
@@ -20,7 +19,6 @@
 .content {
     background-image: url(/Ukrainian/img/Rectangle104.jpg);
     background-size: cover;
-    /* width: 1440px; */
     height: 150px;
 
 }
@@ -90,32 +88,34 @@
 .content2 {
     background-image: url(/Ukrainian/img/avatar-bg.jpg);
     background-size: cover;
-    /* width: 1440px; */
     height: 740px;
 }
-.for-margin-top {
+.margin-bottom {
     height: 40px;
     width: 100%;
+    margin-bottom: 115px;
 }
-.header-text {
-    margin-left: 78px;
-    margin-top: 100px;
-    /* position: relative; */
+.flex {
+    display: flex;
+    align-items: center;
 }
-.header-text > p {
+.main-text {
+    margin-left: 70px;
+}
+.main-text > p {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
 }
-.header-text > p:nth-of-type(1) {
+.main-text > p:nth-of-type(1) {
     width: 298px;
     height: 96px;
 }
-.header-text > p:nth-of-type(2) {
+.main-text > p:nth-of-type(2) {
     width: 376px;
     height: 123px;
 }
-.header-text > div:nth-of-type(1) {
+.main-text > div:nth-of-type(1) {
     background-image: url(/Ukrainian/img/white-arrow-left.png);
     width: 152px;
     height: 40px;
@@ -140,27 +140,30 @@
 }
 .icons {
     display: flex;
+    margin-left: 750px;
     flex-direction: column;
-    align-items: end;
 }
-.icons > div:nth-of-type(1) {
+.icons > img:nth-of-type(1) {
     width: 30px;
     height: 30px;
+    margin-bottom: 24px;
 }
-.icons > div:nth-of-type(2) {
+.icons > img:nth-of-type(2) {
     width: 34px;
     height: 30px;
+    margin-bottom: 24px;
 }
-.icons > div:nth-of-type(3) {
+.icons > img:nth-of-type(3) {
     width: 50px;
     height: 30px;
+    margin-bottom: 24px;
+    margin-left: -10px;
 }
 .card1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 1440px; */
     height: 350px;
     background-color: #fff;
 }
@@ -169,5 +172,20 @@
     font-size: 36px;
     font-family: 'Inter', sans-serif;
 }
+.card1 > p {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+.card1 > div::before {
+    content: "";
+    position: absolute;
+    background-image: url(/Ukrainian/img/arrows-bird.png);
+    width: 400px;
+    height: 120px;
+    left: 480px;
+}
+
 
 
