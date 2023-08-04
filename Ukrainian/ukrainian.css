@@ -203,6 +203,10 @@
     font-size: 32px;  
     padding: 58px 0 45px 0;
 }
+.first-cards-line {
+    display: flex;
+    justify-content: space-evenly;
+}
 .first-cards-line > div {
     width: 320px;
     height: 240px;
@@ -235,8 +239,27 @@
     width: 152px;
     height: 40px;
     top: 100px;
-    left: 90px;
+    left: 100px;
 }
+.right-blue-arrow::before {
+    content: "";
+    position: absolute;
+    background-image: url(/Ukrainian/img/right-blue-arrow.png);
+    width: 152px;
+    height: 40px;
+    top: 100px;
+    left: 100px;
+}
+.small-bird-arrows::before {
+    content: "";
+    position: absolute;
+    background-image: url(/Ukrainian/img/small-bird-arrows.png);
+    width: 152px;
+    height: 40px;
+    top: 100px;
+    left: 100px;
+}
+
 
 
 
