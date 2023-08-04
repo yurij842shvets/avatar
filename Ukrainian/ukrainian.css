@@ -191,13 +191,52 @@
 .black {
     color: #141414; 
 }
+.avatar-language {
+    background-image: url(/Ukrainian/img/Rectangle20.jpg);
+    background-size: cover;
+    padding: 58px 0 606px 0;  
+}
 .navy-language > p {
     color: #141414;
     text-align: center;
     font-family: HeadlandOne;
-    font-size: 32px;    
+    font-size: 32px;  
+    padding: 58px 0 45px 0;
 }
-
+.first-cards-line > div {
+    width: 320px;
+    height: 240px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+}
+.card-text > p:nth-of-type(1) {
+    color: #141414;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 36px;
+}
+.card-text > p:nth-of-type(2) {
+    color: #000;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;    
+    line-height: 24px;
+    padding-top: 108px;
+}
+.card-text {
+    position: relative;
+}
+.left-blue-arrow::before {
+    content: "";
+    position: absolute;
+    background-image: url(/Ukrainian/img/left-blue-arrow.png);
+    width: 152px;
+    height: 40px;
+    top: 100px;
+    left: 90px;
+}
 
 
 
