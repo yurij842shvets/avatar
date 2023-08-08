@@ -13,7 +13,7 @@
     justify-content: space-around;
 }
 .content {
-    background-image: url(/Ukrainian/img/Rectangle104.jpg);
+    background-image: url(/English/img/Rectangle104.jpg);
     background-size: cover;
 }
 #Main {
@@ -77,10 +77,10 @@
     height: 17px;
     border-radius: 50%;
     background-color: #fff;
-    right: 1px;
+    right: 13px;
 }
 .content2 {
-    background-image: url(/Ukrainian/img/avatar-bg.jpg);
+    background-image: url(/English/img/avatar-bg.jpg);
     background-size: cover;
 }
 .flex {
@@ -102,7 +102,7 @@
     height: 123px;
 }
 .main-text > div:nth-of-type(1) {
-    background-image: url(/Ukrainian/img/white-arrow-left.png);
+    background-image: url(/English/img/white-arrow-left.png);
     width: 152px;
     height: 40px;
     margin-left: 60px;
@@ -119,7 +119,6 @@
     align-items: center;
 }
 .join-clan > p {
-    width: 199px;
     color: #26C7EA;
     font-family: HeadlandOne;
     font-size: 24px;
@@ -158,13 +157,13 @@
 .card1 > div::before {
     content: "";
     position: absolute;
-    background-image: url(/Ukrainian/img/arrows-bird.png);
+    background-image: url(/English/img/arrows-bird.png);
     width: 400px;
     height: 120px;
     left: 480px;
 }
 .watch-trailer {
-    background-image: url(/Ukrainian/img/Rectangle10.jpg);
+    background-image: url(/English/img/Rectangle10.jpg);
     background-size: cover;
     padding: 355px 0 356px 0;
     display: flex;
@@ -194,7 +193,7 @@
     color: #141414; 
 }
 .avatar-language {
-    background-image: url(/Ukrainian/img/Rectangle20.jpg);
+    background-image: url(/English/img/Rectangle20.jpg);
     background-size: cover;
 }
 .navy-language > p {
@@ -236,7 +235,7 @@
 .left-blue-arrow::before {
     content: "";
     position: absolute;
-    background-image: url(/Ukrainian/img/left-blue-arrow.png);
+    background-image: url(/English/img/left-blue-arrow.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -245,7 +244,7 @@
 .right-blue-arrow::before {
     content: "";
     position: absolute;
-    background-image: url(/Ukrainian/img/right-blue-arrow.png);
+    background-image: url(/English/img/right-blue-arrow.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -254,7 +253,7 @@
 .small-bird-arrows::before {
     content: "";
     position: absolute;
-    background-image: url(/Ukrainian/img/small-bird-arrows.png);
+    background-image: url(/English/img/small-bird-arrows.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -273,7 +272,7 @@
     opacity: 0.7;
 }
 .footer-content {
-    background-image: url(/Ukrainian/img/Rectangle104.jpg);
+    background-image: url(/English/img/Rectangle104.jpg);
     background-size: cover;
 }
 .content3 {
@@ -314,8 +313,3 @@
     font-size: 14px;
     padding-top: 37px;
 }
-
-
-
-
-/* opacity for transperency */
