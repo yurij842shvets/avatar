@@ -49,7 +49,7 @@
     background-color: #0B0E66;
     border-radius: 35px 0;
     color: #26C6EA;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 20px;
 }
 .switcher-container {
@@ -121,7 +121,7 @@
 .join-clan > p {
     width: 199px;
     color: #26C7EA;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 24px;
 }
 .icons {
@@ -184,7 +184,7 @@
 .watch-trailer-button > p {
     color: #26C7EA;
     text-align: center;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 24px;
 }
 .card1 > h2:nth-of-type(n+2) {
@@ -200,7 +200,7 @@
 .navy-language > p {
     color: #141414;
     text-align: center;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 32px;  
     padding: 58px 0 45px 0;
 }
@@ -217,7 +217,7 @@
 .card-text > p:nth-of-type(1) {
     color: #141414;
     text-align: center;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 24px;
     line-height: 24px;
     padding-top: 36px;
@@ -225,7 +225,7 @@
 .card-text > p:nth-of-type(2) {
     color: #000;
     text-align: center;
-    font-family: HeadlandOne;
+    font-family: 'Headland One', serif;
     font-size: 24px;    
     line-height: 24px;
     padding-top: 108px;
