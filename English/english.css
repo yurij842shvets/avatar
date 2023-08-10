@@ -239,16 +239,7 @@
     width: 152px;
     height: 40px;
     top: 100px;
-    left: 100px;
-}
-.right-blue-arrow::before {
-    content: "";
-    position: absolute;
-    background-image: url(/English/img/right-blue-arrow.png);
-    width: 152px;
-    height: 40px;
-    top: 100px;
-    left: 100px;
+    left: 85px;
 }
 .small-bird-arrows::before {
     content: "";
@@ -257,7 +248,16 @@
     width: 152px;
     height: 40px;
     top: 100px;
-    left: 100px;
+    left: 85px;
+}
+.right-blue-arrow::before {
+    content: "";
+    position: absolute;
+    background-image: url(/English/img/right-blue-arrow.png);
+    width: 152px;
+    height: 40px;
+    top: 100px;
+    left: 85px;
 }
 .second-cards-line {
     display: flex;
