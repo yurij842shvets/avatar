@@ -1,10 +1,8 @@
 @import '/reset.css';
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import '/normalize.css';
 body {
+    font-style: normal;
+    line-height: normal;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     color: #FFF;
@@ -25,24 +23,50 @@ body {
     justify-content: space-around;
 }
 .content {
-    background-image: url(/English/img/Rectangle104.jpg);
+    background-image: url(./img/footer-header-bg.jpg);
     background-size: cover;
+}
+#Main,
+.header-links > a:nth-of-type(n+2),
+.login,
+.main-text > p,
+.footer-first-line > p,
+.footer-second-line > p,
+.footer-third-line > p {
+    font-size: 20px;
+}
+.login,
+.join-clan > p,
+.watch-trailer-button > p,
+.avatar-language > p,
+.card-text > p:nth-of-type(1),
+.card-text > p:nth-of-type(2) {
+    font-family: 'Headland One', serif;
+}
+.switcher-container > a,
+.card1,
+.watch-trailer-button > p,
+.avatar-language > p,
+.card-text > p:nth-of-type(1),
+.card-text > p:nth-of-type(2),
+.footer-first-line > p,
+.footer-second-line > p,
+.footer-third-line > p {
+    text-align: center;
 }
 #Main {
     color: #94CFFF;
-    font-size: 20px;
     text-decoration: none;
 }
 .header-links > a:nth-of-type(n+2) {
     color: #FFF;
-    font-size: 20px;
     text-decoration: none;
+}
+.header-links > a:nth-of-type(3) {
+    padding-right: 212px;
 }
 .header-links > a {
     margin-left: 38px;
-}
-.login-container {
-    padding: 20px;
 }
 .login {
     width: 141px;
@@ -51,12 +75,9 @@ body {
     background-color: #0B0E66;
     border-radius: 35px 0;
     color: #26C6EA;
-    font-family: 'Headland One', serif;
-    font-size: 20px;
 }
 .switcher-container > a {
     color: #FFF;
-    text-align: center;
     font-family: 'Hammersmith One', sans-serif;
     text-decoration: none;
     font-size: 16px;
@@ -73,22 +94,20 @@ body {
     display: inline-block;
     content: "";
     position: absolute;
-    width: 20px;
-    height: 17px;
+    width: 16px;
+    height: 15px;
     border-radius: 50%;
     background-color: #fff;
-    right: 13px;
+    right: 17px;
+    top: 2px;
 }
 .content2 {
-    background-image: url(/English/img/avatar-bg.jpg);
+    background-image: url(./img/avatar-main-bg.jpg);
     background-size: cover;
 }
 .content2-justify-content {
     justify-content: space-evenly;
     padding: 180px 0 179px 0;
-}
-.main-text > p {
-    font-size: 20px;
 }
 .main-text > p:nth-of-type(1) {
     width: 298px;
@@ -98,11 +117,17 @@ body {
     width: 376px;
     height: 123px;
 }
-.main-text > div:nth-of-type(1) {
-    background-image: url(/English/img/white-arrow-left.png);
+.position-relative {
+    position: relative;
+}
+.position-relative > div::after {
+    content: "";
+    position: absolute;
+    background-image: url(./img/white-arrow-left.png);
     width: 152px;
     height: 40px;
-    margin-left: 60px;
+    bottom: -5px;
+    left: 50px;
 }
 .join-clan {
     margin-top: 42px;
@@ -114,7 +139,6 @@ body {
 }
 .join-clan > p {
     color: #26C7EA;
-    font-family: 'Headland One', serif;
     font-size: 24px;
 }
 .icons {
@@ -126,32 +150,30 @@ body {
 .icons > img:nth-of-type(2) {
     margin-bottom: 24px;
 }
-.card1 {
-    flex-direction: column;
-    height: 350px;
-    background-color: #fff;
-    padding-bottom: 40px;
+.black {
+    color: #141414 !important; 
 }
-.card1 > h1, h2 {
+.card1 {
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.padding {
+    padding-bottom: 4px;
+    padding-top: 75px;
+}
+.card1 > h1,
+.card1 > h2 {
     color: #0A3853;
     font-size: 36px;
+    margin: 0;
 }
 .card1 > p {
     color: #000;
-    text-align: center;
     font-size: 24px;
     padding-top: 16px;
 }
-.card1 > div::before {
-    content: "";
-    position: absolute;
-    background-image: url(/English/img/arrows-bird.png);
-    width: 400px;
-    height: 120px;
-    left: 480px;
-}
 .watch-trailer {
-    background-image: url(/English/img/Rectangle10.jpg);
+    background-image: url(./img/watch-trailer-bg.jpg);
     background-size: cover;
     padding: 355px 0 356px 0;
 }
@@ -164,29 +186,21 @@ body {
 }
 .watch-trailer-button > p {
     color: #26C7EA;
-    text-align: center;
-    font-family: 'Headland One', serif;
     font-size: 24px;
 }
 .card1 > h2:nth-of-type(n+2) {
     color: #141414;
 }
-.black {
-    color: #141414; 
-}
 .avatar-language {
-    background-image: url(/English/img/Rectangle20.jpg);
+    background-image: url(./img/avatar-language-bg.jpg);
     background-size: cover;
 }
-.navy-language > p {
+.avatar-language > p {
     color: #141414;
-    text-align: center;
-    font-family: 'Headland One', serif;
     font-size: 32px;  
     padding: 58px 0 45px 0;
 }
 .first-cards-line {
-    /* display: flex; */
     justify-content: space-evenly;
 }
 .first-cards-line > div {
@@ -197,16 +211,12 @@ body {
 }
 .card-text > p:nth-of-type(1) {
     color: #141414;
-    text-align: center;
-    font-family: 'Headland One', serif;
     font-size: 24px;
     line-height: 24px;
     padding-top: 36px;
 }
 .card-text > p:nth-of-type(2) {
     color: #000;
-    text-align: center;
-    font-family: 'Headland One', serif;
     font-size: 24px;    
     line-height: 24px;
     padding-top: 108px;
@@ -217,7 +227,7 @@ body {
 .left-blue-arrow::before {
     content: "";
     position: absolute;
-    background-image: url(/English/img/left-blue-arrow.png);
+    background-image: url(./img/left-blue-arrow.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -226,7 +236,7 @@ body {
 .small-bird-arrows::before {
     content: "";
     position: absolute;
-    background-image: url(/English/img/small-bird-arrows.png);
+    background-image: url(./img/small-bird-arrows.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -235,7 +245,7 @@ body {
 .right-blue-arrow::before {
     content: "";
     position: absolute;
-    background-image: url(/English/img/right-blue-arrow.png);
+    background-image: url(./img/right-blue-arrow.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -253,7 +263,7 @@ body {
     opacity: 0.7;
 }
 .footer-content {
-    background-image: url(/English/img/Rectangle104.jpg);
+    background-image: url(./img/footer-header-bg.jpg);
     background-size: cover;
 }
 .content3 {
@@ -268,12 +278,6 @@ body {
 }
 .footer-second-line {
     padding-top: 16px;
-}
-.footer-first-line > p,
-.footer-second-line > p,
-.footer-third-line > p {
-    text-align: center;
-    font-size: 20px;
 }
 .footer-first-line > img,
 .footer-second-line > img {
