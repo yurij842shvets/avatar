@@ -1,5 +1,5 @@
 @import '/reset.css';
-@import '/normalize.css';
+@import '../normalize.css';
 body {
     font-style: normal;
     line-height: normal;
@@ -151,19 +151,11 @@ body {
 .icons > img:nth-of-type(2) {
     margin-bottom: 24px;
 }
-.black {
-    color: #141414 !important; 
-}
 .card1 {
     background-color: #fff;
-    padding-bottom: 10px;
+    padding: 75px 0 8px;
 }
-.padding {
-    padding-bottom: 4px;
-    padding-top: 75px;
-}
-.card1 > h1,
-.card1 > h2 {
+.blue {
     color: #0A3853;
     font-size: 36px;
     margin: 0;
@@ -173,6 +165,7 @@ body {
     font-size: 24px;
     padding-top: 16px;
 }
+.card1
 .watch-trailer {
     background-image: url(./img/watch-trailer-bg.jpg);
     background-size: cover;
