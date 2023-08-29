@@ -54,6 +54,12 @@ body {
 .footer-third-line > p {
     text-align: center;
 }
+/* .header-links > a,
+.main-text > p:nth-of-type(1),
+.main-text > p:nth-of-type(2),
+.container {
+    font-weight: 700;
+} */
 #Main {
     color: #94CFFF;
     text-decoration: none;
@@ -111,14 +117,15 @@ body {
 }
 .main-text > p:nth-of-type(1) {
     width: 298px;
-    height: 96px;
+    /* height: 96px; */
 }
 .main-text > p:nth-of-type(2) {
     width: 376px;
-    height: 123px;
+    /* height: 123px; */
 }
 .position-relative {
     position: relative;
+    padding: 28px 0;
 }
 .position-relative > div::after {
     content: "";
@@ -155,14 +162,19 @@ body {
     padding: 75px 0 8px;
 }
 .blue {
-    color: #0A3853;
+    color: #0A3853 !important;
+}
+.black {
+    color: #000;
+}
+.card1 > h2 {
     font-size: 36px;
-    margin: 0;
 }
 .card1 > p {
     color: #000;
     font-size: 24px;
     padding-top: 16px;
+    font-family: none;
 }
 .watch-trailer {
     background-image: url(./img/watch-trailer-bg.jpg);
