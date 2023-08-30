@@ -1,4 +1,4 @@
-@import '/reset.css';
+@import '../reset.css';
 @import '../normalize.css';
 body {
     font-style: normal;
@@ -23,7 +23,7 @@ body {
     justify-content: space-around;
 }
 .content {
-    background-image: url(./img/footer-header-bg.jpg);
+    background-image: url(../img/footer-header-bg.jpg);
     background-size: cover;
 }
 #Main,
@@ -110,7 +110,7 @@ body {
     top: 2px;
 }
 .content2 {
-    background-image: url(./img/avatar-main-bg.jpg);
+    background-image: url(../img/avatar-main-bg.jpg);
     background-size: cover;
 }
 .content2-justify-content {
@@ -130,7 +130,7 @@ body {
 .position-relative > div::after {
     content: "";
     position: absolute;
-    background-image: url(./img/white-arrow-left.png);
+    background-image: url(../img/white-arrow-left.png);
     width: 152px;
     height: 40px;
     bottom: -5px;
@@ -178,7 +178,7 @@ body {
     font-family: none;
 }
 .watch-trailer {
-    background-image: url(./img/watch-trailer-bg.jpg);
+    background-image: url(../img/watch-trailer-bg.jpg);
     background-size: cover;
     padding: 355px 0 356px 0;
 }
@@ -197,7 +197,7 @@ body {
     color: #141414;
 }
 .avatar-language {
-    background-image: url(./img/avatar-language-bg.jpg);
+    background-image: url(../img/avatar-language-bg.jpg);
     background-size: cover;
 }
 .avatar-language > p {
@@ -232,7 +232,7 @@ body {
 .left-blue-arrow::before {
     content: "";
     position: absolute;
-    background-image: url(./img/left-blue-arrow.png);
+    background-image: url(../img/left-blue-arrow.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -241,7 +241,7 @@ body {
 .small-bird-arrows::before {
     content: "";
     position: absolute;
-    background-image: url(./img/small-bird-arrows.png);
+    background-image: url(../img/small-bird-arrows.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -250,7 +250,7 @@ body {
 .right-blue-arrow::before {
     content: "";
     position: absolute;
-    background-image: url(./img/right-blue-arrow.png);
+    background-image: url(../img/right-blue-arrow.png);
     width: 152px;
     height: 40px;
     top: 100px;
@@ -268,7 +268,7 @@ body {
     opacity: 0.7;
 }
 .footer-content {
-    background-image: url(./img/footer-header-bg.jpg);
+    background-image: url(../img/footer-header-bg.jpg);
     background-size: cover;
 }
 .content3 {
