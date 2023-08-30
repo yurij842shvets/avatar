@@ -54,7 +54,8 @@ body {
 .footer-third-line > p {
     text-align: center;
 }
-/* .header-links > a,
+/* якщо шрифти і надалі будуть не насиченими там де білий колір, то тоді треба буде підключити це
+.header-links > a,
 .main-text > p:nth-of-type(1),
 .main-text > p:nth-of-type(2),
 .container {
@@ -118,11 +119,9 @@ body {
 }
 .main-text > p:nth-of-type(1) {
     width: 298px;
-    /* height: 96px; */
 }
 .main-text > p:nth-of-type(2) {
     width: 376px;
-    /* height: 123px; */
 }
 .position-relative {
     position: relative;
