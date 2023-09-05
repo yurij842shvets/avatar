@@ -57,6 +57,7 @@ body {
 #Main {
     color: #94CFFF;
     text-decoration: none;
+    font-weight: 600;
 }
 .header-links > a:nth-of-type(n+2) {
     color: #FFF;
@@ -162,6 +163,7 @@ body {
 }
 .card1 > h2 {
     font-size: 36px;
+    font-weight: 400;
 }
 .card1 > p {
     color: #000;
